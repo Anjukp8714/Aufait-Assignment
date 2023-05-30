@@ -1,0 +1,139 @@
+
+
+
+/*************Responsive Styles*****************/
+/***************iPhone Portrait**************/
+@media only screen and (max-width: 479px) and (min-width: 320px){
+    .container{
+        width: 75%;
+        margin-left: 82px;
+    }
+    .Banner-sec .banner-inner{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .order-summary .chart-sec {
+        width: 100%;
+    }
+    .order-summary .left-order-sec {
+        width: 100%;
+    }
+    .order-summary .orders {
+        background: #fff;
+        border-radius: 20px;
+        padding-right:0px !important;
+        padding: 27px 30px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .bottom-box-section .multiplebox{
+        grid-template-columns: repeat(1,1fr);  
+    }
+    .blue-box:before {
+        content: "";
+        position: absolute;
+        background-image: url(../Images/vector-1.svg);
+        height: 74px;
+        width: 240px;
+        bottom: 0;
+        right: 0;
+    }
+    .Banner-sec .banner-inner .box1, .Banner-sec .banner-inner .box2{
+        flex-wrap: wrap;
+    }
+    .left-padding{
+        padding-left: 0px !important;
+    }
+    }
+    
+    /**********************iPhone Landscape*************/
+    @media only screen and (max-width: 767px) and (min-width: 480px){
+        .container{
+            width: 75%;
+            margin-left: 82px;
+        }
+        .Banner-sec .banner-inner{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .order-summary .chart-sec {
+            width: 100%;
+        }
+        .order-summary .left-order-sec {
+            width: 100%;
+        }
+        .order-summary .orders {
+            background: #fff;
+            border-radius: 20px;
+            padding: 27px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .bottom-box-section .multiplebox{
+            grid-template-columns: repeat(1,1fr);  
+        }
+        .blue-box:before {
+            content: "";
+            position: absolute;
+            background-image: url(../Images/vector-1.svg);
+            height: 74px;
+            width: 240px;
+            bottom: 0;
+            right: 0;
+        }
+        .Banner-sec .banner-inner .box1, .Banner-sec .banner-inner .box2{
+            flex-wrap: wrap;
+        }
+        .left-padding{
+            padding-left: 0px !important;
+        }
+    }
+    
+    /*************************iPad Portrait***************/
+    @media only screen and (max-width: 985px) and (min-width: 768px){
+        .container{
+            width: 75%;
+            margin-left: 82px;
+        }
+        .Banner-sec .banner-inner{
+            grid-template-columns: repeat(1,1fr);
+        }
+        .order-summary .chart-sec {
+            width: 100%;
+        }
+        .order-summary .left-order-sec {
+            width: 100%;
+        }
+        .order-summary .orders {
+            background: #fff;
+            border-radius: 20px;
+            padding: 27px 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .bottom-box-section .multiplebox{
+            grid-template-columns: repeat(1,1fr);  
+        }
+        .blue-box:before {
+            content: "";
+            position: absolute;
+            background-image: url(../Images/vector-1.svg);
+            height: 74px;
+            width: 240px;
+            bottom: 0;
+            right: 0;
+        }
+        .Banner-sec .banner-inner .box1, .Banner-sec .banner-inner .box2{
+            flex-wrap: wrap;
+        }
+    }
+    
+    /**************iPad Landscape***************/
+    @media only screen and ( max-width: 1024px ) and (min-width: 986px){
+        .container{
+            width: 90%;
+            margin-left: 82px;
+        } 
+    }
+    /*******************************************/
