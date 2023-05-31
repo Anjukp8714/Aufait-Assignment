@@ -64,6 +64,7 @@ options: {
      display: true,
      grid: {
        display: false, 
+      
      },
      title: {
        display: true,
@@ -76,18 +77,17 @@ options: {
      },
      grid: {
        display: true,
-       drawOnChartArea: false,
-       drawTicks: false,
-       borderDash: [10, 10],
+       drawOnChartArea: true,
+       drawTicks: true,
+      //  borderDash: [10, 10],
        color: function(context) {
          if (context.tick.value === 1 || context.tick.value === 2 || context.tick.value === 3 || context.tick.value === 4 || context.tick.value === 5) {
-           return '#000'; // Change grid line color for specific values
+           return '#F0F0F0'; // Change grid line color for specific values
          }
          return '#330000'; // Change grid line color for other values
        }
      },
      max: 5,
-     stepSize: 1,
      ticks: {
        callback: function (value, index, values) {
         
@@ -96,6 +96,7 @@ options: {
          }
          return '';
        },
+       stepSize: 1,
      },
    },
  },
@@ -153,8 +154,3 @@ item.addEventListener('click', () => {
  sidebar.classList.remove('open');
 });
 });
-
-
-
-
-
